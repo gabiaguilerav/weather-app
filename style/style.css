@@ -1,0 +1,102 @@
+body {
+  margin: 0 auto;
+  font-family: montserrat;
+  background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+  background-attachment: fixed;
+}
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.container {
+  padding: 20px 20px;
+  margin: 60px auto;
+  max-width: 600px;
+  border-radius: 20px;
+  background: white;
+  box-shadow: 0 30px 50px rgba(42, 149, 232, 0.2);
+}
+
+.data {
+  display: flex;
+  justify-content: center;
+}
+
+#city {
+  background-color: white;
+  border: 1px #405983 solid;
+  border-radius: 5px;
+  font-size: 22px;
+  transition: all 200ms ease-in-out;
+  padding: 10px;
+}
+
+#city:hover {
+  border: 1px #f74b6e solid;
+}
+
+#enter {
+  background-color: #405983;
+  border: 1px transparent solid;
+  border-radius: 5px;
+  font-size: 22px;
+  color: white;
+  transition: all 200ms ease-in-out;
+  padding: 10px;
+}
+
+#enter:hover {
+  border: 1px #f74b6e solid;
+  background-color: #f74b6e;
+  color: white;
+}
+
+.current {
+  margin: 35px 25px;
+  display: flex;
+  justify-content: space-between;
+}
+.current strong {
+  color: #f74b6e;
+}
+
+.current p {
+  line-height: 1.4;
+}
+
+.temperature {
+  font-size: 60px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.prognoses {
+  text-align: center;
+}
+.prognoses ul {
+  list-style: none;
+}
+
+footer {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 12px;
+}
+
+footer p {
+  margin-bottom: 0;
+}
+
+footer a {
+  color: #405983;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 200ms ease;
+}
+
+footer a:hover {
+  color: #f74b6e;
+}
